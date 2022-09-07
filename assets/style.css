@@ -57,6 +57,9 @@ a{
 /*#endregion header*/
 
 /*region main*/
+.col{
+    width: calc(100% / 3);
+}
 .product{
     display: inline-block;
 }
