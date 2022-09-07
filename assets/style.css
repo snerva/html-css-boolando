@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bo-header: #FF6900;
+    --bo-sale: #FF0000;
+    --bo-badge: #008000;
+    --bo-footer: #1A1A1A;
+    --bo-text-light: #ffffff;
+    --bo-text-dark: #000000;
+}
+
