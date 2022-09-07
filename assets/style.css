@@ -79,7 +79,7 @@ img{
     padding: 0.5rem
 }
 
-.product:hover .like{
+.like:hover{
     color: var(--bo-sale);
 }
 
