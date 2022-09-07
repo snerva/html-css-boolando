@@ -79,6 +79,10 @@ img{
     padding: 0.5rem
 }
 
+.product:hover .like{
+    color: var(--bo-sale);
+}
+
 .sale{
     background-color: var(--bo-sale);
     position: absolute;
