@@ -13,6 +13,9 @@
     --bo-text-dark: #000000;
 }
 
+body{
+    font-family: 'Inter', sans-serif;
+}
 .container{
     width: 80%;
     max-width: 1400px;
@@ -29,6 +32,8 @@ a{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+
 
 /*#region header*/
 .banner{
