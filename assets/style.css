@@ -23,6 +23,12 @@ a{
     text-decoration: none;
 }
 
+.row{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 /*#region header*/
 .banner{
@@ -44,3 +50,81 @@ a{
 }
 
 /*#endregion header*/
+
+/*region main*/
+.product{
+    display: inline-block;
+}
+
+img{
+    max-width: 100%;
+}
+
+.product{
+    position: relative;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.like{
+    position: absolute;
+    background-color: var(--bo-text-light);
+    top: 0.5rem;
+    right: 0;
+    padding: 0.5rem
+}
+
+.sale{
+    background-color: var(--bo-sale);
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    padding: 0.5rem;
+}
+
+.badge{
+    background-color: var(--bo-badge);
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    padding: 0.5rem;
+
+}
+
+.sale, .badge, .badge_left{
+    color: var(--bo-text-light);
+}
+
+.price_sale{
+    color: var(--bo-sale);
+}
+
+.price{
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.product .image_back{
+    display: none;
+    visibility: hidden;
+}
+
+.product:hover .image_back{
+    visibility: visible;
+}
+
+.badge_left{
+    background-color: var(--bo-badge);
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    padding: 0.5rem;
+
+}
+
+
+
+
+
+
+/*endregion main*/
