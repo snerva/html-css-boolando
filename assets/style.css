@@ -122,9 +122,27 @@ img{
 
 }
 
-
-
-
-
-
 /*endregion main*/
+
+footer{
+    background-color: var(--bo-footer);
+    color: var(--bo-text-light);
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer a{
+    color: var(--bo-text-light);
+}
+
+footer h3, footer h4{
+    padding-bottom: 0.5rem;
+}
+.footer_right .fa-brands{
+    padding-left: 0.25rem; 
+}
