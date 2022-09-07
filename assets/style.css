@@ -113,13 +113,20 @@ img{
     font-style: italic;
 }
 
-.product .image_back{
+.image{
+    display: block;
+}
+
+.image_back{
     display: none;
-    visibility: hidden;
+}
+
+.product:hover .image{
+    display: none;
 }
 
 .product:hover .image_back{
-    visibility: visible;
+    display: block;
 }
 
 .badge_left{
